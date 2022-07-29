@@ -1,0 +1,96 @@
+
+aside{
+    float:left;
+    background:#181818;
+    width:18%;
+    padding-right:2.5%;
+    height:100vh;
+    color:#ffffff;
+    /*border-right:5px solid #4d4d4d;*/
+}
+
+aside img{
+    float:left;
+    width:80px;
+}
+
+aside .logo{
+    font-size:40px;
+    margin-left:10px;
+    font-weight:bold;
+    position:relative;
+    top:+20px;
+}
+
+aside h3{
+    margin-top:80px;
+    font-size:40px;
+}
+
+aside ul{list-style:none}
+
+aside ul li{
+    color:#ffffff;
+    display:block;
+    margin-top:10px;
+    font-size:25px;
+    transition: transform .3s ease;
+}
+
+aside ul li:hover,aside ul a:hover{
+    /*color:#882CBE;*/
+    color:#FF00FF;
+    text-decoration: none;
+    transform:scale(1.05);
+}
+
+aside ul a{
+    text-decoration: none;
+}
+
+main{
+    background:#C1C1C1;
+}
+
+main .features{
+    float:left;
+    margin-top:100px;
+    text-align:center;
+    width:75%;
+}
+
+main .features h1{ font-size:50px;}
+main .features p{ max-width:400px;margin:20px auto}
+
+body{
+    background:#C1C1C1;
+}
+
+main img{
+    float:left;
+    width:350px;
+    margin-left:70px;
+    margin-top:50px;
+    transition: width .3s ease;
+}
+
+main img:hover{
+    width:400px;
+}
+
+main #galeryh1{
+    padding-top:30px;
+    font-size:40px;
+    text-align:center;
+}
+
+main #github{
+    font-size:25px;
+    color:#0032FF;
+    /*сделать тень #FF00FF*/
+}
+main #gith1{
+    font-size:25px;
+    padding-top:40px;
+    text-align:center;
+}
